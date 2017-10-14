@@ -1,0 +1,199 @@
+.header{
+background:#f4f6f7;
+height: 60px;
+}
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+background:#eee;
+min-height:550px;
+background-attachment:fixed;
+}
+
+.bg
+{
+min-height:540px;
+}
+.bg1
+{
+background:url(../image/bg.jpg);
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title
+{
+font-family:'typo';
+}
+.logo
+{
+font-family:'typo';
+font-size:35px;
+color:#343638;
+margin:15px;
+}
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1
+{
+width:90px;
+color:#343638;
+font-size:15px;
+height:35px;
+margin:7px;
+padding:10px;
+width:100px;
+}
+
+
+.sub
+{
+width:100%;
+font-size:20px;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+color:#fff;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background-color:#202020;
+}
+.footer a
+{
+margin:25px;
+color:#a3a1a1;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color:#050404;
+border-bottom:1px solid;
+border-color:#a3a1a1;
+
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#a3a1a1;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color:#343638;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:#343638;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#a3a1a1;
+border-bottom:1px solid;
+border-color:#343638;
+text-decoration:none;
+}
+.footer-header{
+	color:white;
+}
+.copy{
+	color: white;
+}
+	.disabled{
+		pointer-events:none;
+		cursor:default;
+		
+	}
+	.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 3px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 1.0;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram{ 
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+color: white;
+  }
+
