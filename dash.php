@@ -288,7 +288,7 @@
 						<div class="form-group">
 							<label class="col-md-12 control-label" for="'.$i.'3"></label>  
 								<div class="col-md-12">
-									<input id="'.$i.'3" name="'.$i.'3" placeholder="Enter option c" class="form-control input-md" type="text">
+									<input id="'.$i.'3" name="'.$i.'3" placeholder="Enter option d" class="form-control input-md" type="text">
     
 								</div>
 						</div>
