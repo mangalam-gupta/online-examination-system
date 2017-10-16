@@ -150,7 +150,7 @@ echo  '<div class="panel"><table class="table table-striped title1">
 $c=1;
 while($row = mysqli_fetch_array($result)) {
 	$name = $row['name'];
-	$mob = $row['mob'];
+	$mob = $row['phone'];
 	$gender = $row['gender'];
     $email = $row['email'];
 	$college = $row['college'];
