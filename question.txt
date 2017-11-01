@@ -83,18 +83,24 @@ class Test
    Ans:B
 11.Which of the following is true about interfaces in java.
 
-1) An interface can contain following type of members.
-....public, static, final fields (i.e., constants) 
-....default and static methods with bodies
+	1) An interface can contain following type of members.
+	....public, static, final fields (i.e., constants) 
+	....default and static methods with bodies
 
-2) An instance of interface can be created.
+	2) An instance of interface can be created.
 
-3) A class can implement multiple interfaces.
+	3) A class can implement multiple interfaces.
 
-4) Many classes can implement the same interface.
+	4) Many classes can implement the same interface.
 
-    (A) 1, 3 and 4
-    (B) 1, 2 and 4
-    (C) 2, 3 and 4
-    (D) 1, 2, 3 and 4
+	    (A) 1, 3 and 4
+	    (B) 1, 2 and 4
+	    (C) 2, 3 and 4
+	    (D) 1, 2, 3 and 4
    Ans:A
+12. You can declare two variables with the same name in __________.
+	 A. a method one as a formal parameter and the other as a local variable
+	 B. a block
+	 C. two nested blocks in a method (two nested blocks means one being inside the other)
+	 D. different methods in a class
+	Ans: D
