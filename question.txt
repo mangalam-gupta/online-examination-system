@@ -104,3 +104,6 @@ class Test
 	 C. two nested blocks in a method (two nested blocks means one being inside the other)
 	 D. different methods in a class
 	Ans: D
+13. BigInteger and BigDecimal are immutable.
+	True or False
+     Ans: True
