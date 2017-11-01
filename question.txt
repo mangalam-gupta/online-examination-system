@@ -5,3 +5,9 @@ Question List:
     (C) A class can be made abstract without any abstract method
     (D) A class can inherit from multiple abstract classes.
    Ans: (D)
+2. Which of the following is true about inheritance in Java?
+    (A) Private methods are final.
+    (B) Protected members are accessible within a package and inherited classes outside the package.
+    (C) Protected methods are final.
+    (D) We cannot override private methods. 
+   Ans: (A)
