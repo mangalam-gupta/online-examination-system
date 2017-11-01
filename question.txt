@@ -107,3 +107,246 @@ class Test
 13. BigInteger and BigDecimal are immutable.
 	True or False
      Ans: True
+14.  If a subclass has the same method as declared in the parent class it is known as ______.
+
+	a. Method overriding
+	b. Method overloading
+	c. Constructor overloading
+	d. None of the above
+	Ans: A
+15. Which type of inheritance one super-class have more than one sub-class?
+
+	a. Hierarchical inheritance
+	b. Single inheritance
+	c. Multiple inheritances
+	d. Multilevel inheritance
+	Ans: A
+16.  Which stream does Java application uses to read data from a source, it may be a file, an array, peripheral device or socket?
+
+a. InputStream
+b. OutputStream
+c. Input/OutputStream
+d. None of the above
+Ans:A
+17. Which method is used in thread class to starts the execution of the thread?
+
+a. public void start()
+b. public void run()
+c. public void stop()
+d. public void suspend()
+Ans:A
+18.  Which packages are also termed as Java API Packages?
+
+a. Java System Packages
+b. User Defined Package
+c. Java Defined Packages
+d. None of the above
+Ans: A
+19. Which symbol is used to contain the values of automatically initialized arrays. Also used to define a block of code, for classes, methods, and local scopes?
+
+a. Brackets
+b. Braces
+c. Parentheses
+d. Semicolon
+Ans:B
+20.Method overloading increases the readability of the program
+b. Method overloading does not increases the readability of the program
+c. Method overloading does not increases the reliability of the program
+d. None of the above
+Ans: B
+21.  How many steps are used to connect any java application using JDBC?
+
+a. 5
+b. 4
+c. 3
+d. 6
+Ans:B
+22. Which tag is used to execute java source code in JSP?
+
+a. Declaration Tag
+b. Scriptlet tag
+c. Expression tag
+d. None of the above
+Ans:B
+
+23.What package is a part of the wrapper class which is imported by default into all Java programs?
+
+a. java.lang
+b. java.awt
+c. java.io
+d. java.util
+Ans:A
+24. RMI allows an object to invoke methods on an object running in another JVM
+
+a. True
+b. False
+Ans:A
+
+25.Which is a perfect example of runtime polymorphism?
+
+a. Method overloading
+b. Method overriding
+c. Constructor overloading
+d. None of the above
+Ans:B
+
+26.Which specification that provides runtime environment in which java byte code can be executed?
+
+a. JDK
+b. JVM
+c. JRE
+d. None of the above
+Ans:B
+
+27.Which of the package is used to enable interaction with garbage collector?
+
+a. java.lang.ref
+b. java.lang.reflect
+c. java.lang
+d. java.awt
+Ans:A
+
+28.Where are these five keywords try, catch, finally, throw, and throws used in?
+
+a. Exception Handling
+b. String Handling
+c. Event Handling
+d. None of the above
+Ans:A
+
+29.The life cycle of the thread is controlled by ?
+a. JVM
+b. JDK
+c. JRE
+d. None of the above
+Ans:A
+
+30.In which the access modifier means that the field can be accessed by all classes in your application?
+
+a. private
+b. Public
+c. Package
+d. Protected
+Ans:B
+
+31.java.applet defines how many interfaces?
+
+a. 2
+b. 3
+c. 4
+d. 5
+Ans:B
+
+32.In InetAddress class which method returns the host name of the IP Address?
+
+a. public String getHostName()
+b. public String getHostAddress()
+c. public static InetAddress getLocalHost() 
+d. None of the above
+Ans:A
+
+33.The following two rules are defined by?
+      1. The parameters may differ in their type or number, or in both.
+      2. They may have the same or different return types.
+
+a. Method overloading
+b. Method overriding
+c. Constructor overloading
+d. None of the above
+Ans:A
+
+34.Which allows you to migrate your implementations over time without breaking the code that depends on the public interface of your classes?
+
+a. Polymorphism
+b. Inheritance
+c. Encapsulation
+d. Both A & B
+Ans:C
+
+35.Which is used for writing data to a file in file handling?
+
+a. FileInputStream 
+b. FileOutputStream
+c. Both A & B
+d. None of the above
+Ans:B
+
+36.Which package is used for analyzing code during run time?
+
+a. java.lang.reflect
+b. java.awt
+c. java.io
+d. java.applet
+Ans:A
+
+37.Which mechanism is provided to handle the runtime errors so that normal flow of the application can be maintained?
+
+a. Exception Handling
+b. String Handling
+c. Event Handling
+d. None of the above
+Ans:A
+
+38.How many techniques are used in Session Tracking?
+
+a. 4
+b. 3
+c. 2
+d. 5
+Ans:A
+
+39.Which of these simplifies an Object Relational Mapping tool?
+
+a. Data creation
+b. Data manipulation
+c. Data access
+d. All mentioned above
+Ans:D
+
+40.In RMI which layer defines and supports the invocation semantics of the RMI connection and this layer maintains the session during the method call?
+
+a. The Stub & Skeleton Layer
+b. The Application Layer
+c. The Remote Reference Layer
+d. The Transport Layer
+Ans:C
+
+41.A JSP page consists of which tags?
+
+a. HTML tags
+b. JSP tags
+c. Both A & B
+d. None of the above
+Ans:C
+
+42.Which is invoked after the init() method or browser is maximized?
+
+a. public void start()
+b. public void paint(Graphics g)
+c. Public void stop()
+d. Public void init()
+Ans:A
+
+43.Which class provides many methods for graphics programming?
+
+a. java.awt
+b. java.Graphics
+c. java.awt.Graphics
+d. None of the above
+Ans:C
+
+44.What does the java.net.InetAddress class represent?
+
+a. Socket
+b. IP Address
+c. Protocol
+d. MAC Address
+Ans:B
+
+45.Which allows you to define one interface and have multiple implementations?
+
+a. Encapsulation
+b. Inheritance
+c. Polymorphism
+d. None of the above
+Ans:C
