@@ -11,3 +11,90 @@ Question List:
     (C) Protected methods are final.
     (D) We cannot override private methods. 
    Ans: (A)
+3.What is instance variable?
+    (A) Instance variables are static variables within a class but outside any method.
+    (B)Instance variables are variables defined inside methods, constructors or blocks.
+    (C)Instance variables are variables within a class but outside any method.
+    (D)None of the above.
+   Ans: (C)
+4.What invokes a thread's run() method?
+    A - JVM invokes the thread's run() method when the thread is initially executed.
+    B - Main application running the thread.
+    C - start() method of the thread class.
+    D - None of the above.
+   Ans: A
+5.which operator is considered to be with highest precedence?
+    A - () , []
+    B - =
+    C - ?:
+    D - %
+   Ans: A
+	
+6.Which is a reserved word in the Java programming language?
+    A.	method
+    B.	native
+    C.	subclasses
+    D.	reference
+   Ans: B
+7.Which one of the following will declare an array and initialize it with five numbers?
+    A.	Array a = new Array(5);
+    B.	int [] a = {23,22,21,20,19};
+    C.	int a [] = new int[5];
+    D.	int [5] array;
+   Ans: B
+8.Which is a valid declarations of a String?
+    A.	String s1 = null;
+    B.	String s2 = 'null';
+    C.	String s3 = (String) 'abc';
+    D.	String s4 = (String) '\ufeed';
+   Ans:A
+9.What is the numerical range of a char?
+    A.	-128 to 127
+    B.	-(215) to (215) - 1
+    C.	0 to 32767
+    D.	0 to 65535
+   Ans:D
+10.What will be the output of the program?
+class Test 
+{
+    public static void main(String [] args) 
+    {
+        Test p = new Test();
+        p.start();
+    }
+
+    void start() 
+    {
+        boolean b1 = false;
+        boolean b2 = fix(b1);
+        System.out.println(b1 + " " + b2);
+    }
+
+    boolean fix(boolean b1) 
+    {
+        b1 = true;
+        return b1;
+    }
+}
+    A.	true true
+    B.	false true
+    C.	true false
+    D.	false false
+   Ans:B
+11.Which of the following is true about interfaces in java.
+
+1) An interface can contain following type of members.
+....public, static, final fields (i.e., constants) 
+....default and static methods with bodies
+
+2) An instance of interface can be created.
+
+3) A class can implement multiple interfaces.
+
+4) Many classes can implement the same interface.
+
+    (A) 1, 3 and 4
+    (B) 1, 2 and 4
+    (C) 2, 3 and 4
+    (D) 1, 2, 3 and 4
+   Ans:A
