@@ -465,7 +465,7 @@ echo '</table></div>';}
 		<br/>
 		<br/>
 		<br/>
-		<p class="copy">Copyright &copy; 2017  All rights reserved.  | <a href="#">Home</a> | <a href="#">Disclaimer</a> | <a href="#">Sitemap</a> </p>
+		<p class="copy">Copyright &copy; 2017 <span class="glyphicon glyphicon-heart-empty" style="color:red"></span>angalam Gupta   All rights reserved.  | <a href="#">Home</a> | <a href="#">Disclaimer</a> | <a href="#">Sitemap</a> </p>
 	</div>
 	
 	<div class="modal fade title1" id="developers">
