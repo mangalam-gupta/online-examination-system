@@ -67,6 +67,7 @@
 						<li <?php if(@$_GET['q']==1) echo 'class="active"';?>><a href="dash.php?q=1"><span class="glyphicon glyphicon-user"></span>&nbsp;User</a></li>
 						<li <?php if(@$_GET['q']==2) echo 'class="active"';?>><a href="dash.php?q=2"><span class="glyphicon glyphicon-stats"></span>&nbsp;Ranking</a></li>
 						<li <?php if(@$_GET['q']==3) echo 'class="active"';?>><a href="dash.php?q=3"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Feedback</a></li>
+						<li <?php if(@$_GET['q']==6) echo 'class="active"';?>><a href="dash.php?q=6"><span class="glyphicon glyphicon-book"></span>&nbsp;History</a></li>
 						<li class="dropdown <?php if(@$_GET['q']==4 || @$_GET['q']==5) echo '"active"';?>">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" area-haspopup="true" area-expanded="false"><span class="glyphicon glyphicon-file"></span>&nbsp;Quiz<span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -399,7 +400,37 @@ echo '</table></div>';
 }
 ?>
 
+<!--History-->
+<?php if(@$_GET['q']== 6) 
+{
+$q=mysqli_query($con,"SELECT * FROM history " )or die('Error223');
+echo  '<div class="panel title">
+<table class="table table-striped title1" >
+<tr style="color:red"><td><b>Name</b></td><td><b>college</b></td><td><b>Quiz</b></td><td><b>Total</b></td><td><b>Right</b></td><td><b>Wrong</b></td><td><b>Score</b></td></tr>';
+while($row=mysqli_fetch_array($q) )
+{
+$eid = $row['eid'];
+$e=$row['email'];
+$s=$row['score'];
+$qa=$row['level'];
+$w=$row['wrong'];
+$r=$row['sahi'];
+$q13=mysqli_query($con,"SELECT title FROM quiz WHERE eid='$eid' " )or die('Error21');
+while($row=mysqli_fetch_array($q13)){
+$title=$row['title'];
+}
+$q12=mysqli_query($con,"SELECT * FROM user WHERE email='$e' " )or die('Error231');
 
+while($row=mysqli_fetch_array($q12) )
+{
+$name=$row['name'];
+$college=$row['college'];
+}
+echo '<tr><td style="color:#99cc32"><b>'.$name.'</b></td><td>'.$college.'</td><td>'.$title.'</td><td>'.$qa.'</td><td>'.$r.'</td><td>'.$w.'</td><td>'.$s.'</td><td>';
+}
+echo '</table></div>';}
+
+?>
 </div><!--container closed-->
 </div>
 </div>
