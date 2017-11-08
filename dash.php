@@ -478,7 +478,7 @@ echo '</table></div>';}
 				<div class="modal-body">
 					<p>
 						<div class="row">
-						<h4 style="color:#343638" align="center"><b><u>Developers</u></b></h4>
+						<h4 style="color:#343638" align="center"><b><u>Developer</u></b></h4>
 							<div class="col-md-4">
 							<a href="https://www.facebook.com/mangalam.gupta.1" target="_blank" title="Mangalam Gupta">
 							<img src="image/mangalam.jpg" height=125 width=175 alt="Mangalam Gupta" class="img-rounded">
