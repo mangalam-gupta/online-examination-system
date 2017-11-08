@@ -493,40 +493,7 @@ echo '</table></div>';}
 								</a>
 							</div><br/><br/>
 						</div>
-							<div class="row">
-						<br/>
-						<br/>
-							<div class="col-md-4">
-							<a href="https://www.facebook.com/cashewsangam" target="_blank" title="Sangam Kumar">
-							<img src="image/sangam.jpg" height=125 width=175 alt="Sangam Kumar" class="img-rounded">
-							</a>
-							</div>
-							<div class="col-md-8">
-								<a href="https://www.facebook.com/cashewsangam" style="color:#202020; font-size: 18px" title="Sangam on Facebook" target="_blank">Sangam Kumar</a>
-								<h4 style="color:#202020  ; font-size:16px" class="title1">+91-7602054727</h4>
-								<h4>b150110cs@nitsikkim.ac.in</h4>
-								<a href="http://www.nitsikkim.ac.in" target="_blank" style="color:#202020" title="NIT SIKKIM">
-								<h4>National Institute of Technology, Sikkim</h4>
-								</a>
-							</div><br/><br/>
-						</div>
-						<div class="row">
-						<br/>
-						<br/>
-							<div class="col-md-4">
-							<a href="https://www.facebook.com/ranjanr2013" target="_blank" title="Yadav Raviranjan Ramasish">
-							<img src="image/ravi.jpg" height=125 width=175 alt="Yadav Raviranjan Ramasish" class="img-rounded">
-							</a>
-							</div>
-							<div class="col-md-8">
-								<a href="https://www.facebook.com/ranjanr2013" style="color:#202020; font-size: 18px" title="Ravi on Facebook" target="_blank">Yadav Raviranjan Ramasish</a>
-								<h4 style="color:#202020  ; font-size:16px" class="title1">+91-9933097697</h4>
-								<h4>b150048cs@nitsikkim.ac.in</h4>
-								<a href="http://www.nitsikkim.ac.in" target="_blank" style="color:#202020" title="NIT SIKKIM">
-								<h4>National Institute of Technology, Sikkim</h4>
-								</a>
-							</div><br/><br/>
-						</div>
+							
 					</p>
 				</div>
 				<div class="modal-footer">
